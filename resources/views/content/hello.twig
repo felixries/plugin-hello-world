@@ -1,5 +1,5 @@
 <h1>Hello World!</h1>
-
+{{ packagistResult.total | json_encode }}
 <p>{{ packagistResult.total }} Results</p>
 <ul>
     {% for packagistItem in packagistResult.results %}
