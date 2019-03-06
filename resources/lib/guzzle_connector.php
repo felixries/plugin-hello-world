@@ -1,7 +1,7 @@
 <?php
-use GuzzleHttp\Client;
 
-$client = new Client();
+
+$client = new \GuzzleHttp\Client();
 $res = $client->request(
     'GET',
     'https://packagist.org/search.json',
